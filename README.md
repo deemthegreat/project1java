@@ -15,7 +15,7 @@ The program includes the initial algorithmic blueprint outlining the logic and v
 
 ## How to Run
 1. Open the project in an IDE (such as IntelliJ IDEA).
-2. Run the `Main.java` file.
+2. Run the `Main.java` file. (IT IS LOCATED IN THE src FILE)
 3. Follow the on-screen prompts to enter:
    - Fence length and width (in feet)
    - Post distance (in feet)
