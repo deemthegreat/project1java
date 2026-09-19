@@ -1,11 +1,59 @@
+// Start the program
+//
+//Ask the user for inputs (Fence Area)
+//"Enter the length of the fenced area in feet:" length
+//"Enter the width of the fenced area in feet:" width
+//"Enter the distance between posts in feet:" postDistance
+//
+//Calculate total fence length
+//totalFenceLength = 2 * (length + width)
+//
+//Validate Post Distance
+//If totalFenceLength is not evenly divisible by postDistance:
+//    (output) "Error: Fence length is not evenly divisible by post distance. Please run the program again."
+//    End Program
+//
+//Calculate Posts
+//totalPosts = totalFenceLength / postDistance
+//
+//Ask the user for inputs (Board Details)
+//"Enter the length of the boards you plan to use in feet:" boardLength
+//
+//Validate Board Length
+//If boardLength is less than postDistance:
+//    (output) "Error: Board length cannot be less than post distance. Please run the program again."
+//    End Program
+//
+//Calculate boards for a single layer
+//boardsPerLayer = totalFenceLength / boardLength (rounded up)
+//
+//Ask the user for inputs (Layers and Costs)
+//"How many boards do you want to run across each post?" layers
+//"Enter the cost of each post:" costPerPost
+//"Enter the cost of each board:" costPerBoard
+//
+//Calculate final totals and costs
+//totalBoards = boardsPerLayer * layers
+//totalPostCost = totalPosts * costPerPost
+//totalBoardCost = totalBoards * costPerBoard
+//grandTotal = totalPostCost + totalBoardCost
+//
+//(output) List all of the information gathered and calculated
+//Total Posts Required : (totalPosts)
+//Total Boards Required : (totalBoards)
+//Total Cost of Posts : ($ totalPostCost)
+//Total Cost of Boards : ($ totalBoardCost)
+//Grand Total for Project : ($ grandTotal)
+//
+//End Program
+
 package project1java;
 
-import java.lang.reflect.GenericDeclaration;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[]) {
 
         Scanner keyboard = new Scanner(System.in);
 
